@@ -1,4 +1,4 @@
-{
+module.exports ={
   "rating": {
     "max": 10,
     "average": 8.1,

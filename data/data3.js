@@ -1,4 +1,4 @@
-{
+module.exports ={
     "count": 20,
     "start": 0,
     "total": 35,
