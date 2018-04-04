@@ -1,0 +1,10 @@
+<!--pages/text/test.wxml-->
+<view class ="container">
+  <view class = "item child">
+  <image src ="../../images/avator.jpg" style="width:200px;"></image>
+  inner one</view>
+  <view class = "item child">inner two</view>
+  <view class = "item child">inner three</view>
+  <view class = "item child">inner one</view>
+  <view class = "item child">inner two</view>
+</view>

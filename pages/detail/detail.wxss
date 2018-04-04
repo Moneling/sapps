@@ -1,0 +1,25 @@
+/* pages/detail/detail.wxss */
+.detailWrap{
+  display: flex;
+  flex-direction: column;
+}
+.movie_l_img{
+  width: 100%;
+  height: 500rpx;
+}
+.directors,.year,.type{
+  display: flex;
+  flex-direction: row;
+}
+.castas{
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.summary{
+  margin-top: 15px;
+  text-indent: 30rpx;
+  font-size: 14px;
+  font-family: "Microsft Yahei";
+  padding: 0px 10rpx;
+}

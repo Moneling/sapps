@@ -1,0 +1,29 @@
+/* pages/nav/nav.wxss */
+.nav-container{
+  display: flex;
+  flex-direction: column;
+}
+.avator{
+  width: 200rpx;
+  height: 200rpx;
+  margin: auto;
+  margin-top: 100rpx;
+}
+
+.nickname{
+  text-align: center;
+  font-weight: 400;
+  margin: auto;
+  margin-top:30rpx;
+}
+.into{
+  width: 300rpx;
+  height: 90rpx;
+  border: 1px solid lightskyblue;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  margin-top: 200rpx;
+  box-sizing: border-box;
+  line-height: 90rpx;
+}

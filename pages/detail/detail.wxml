@@ -1,0 +1,32 @@
+<!--pages/detail/detail.wxml-->
+<view class="detailWrap">
+  <image src="{{details.images.large}}" class="movie_l_img"></image>
+  <view class="move_title">
+    <text>{{details.title}}</text>
+  </view>
+
+  <view class="directors">
+    导演:
+    <view wx:for="{{details.directors}}">
+      {{item.name}}
+    </view>
+  </view>
+
+  <view class="castas">
+     主演:
+    <view wx:for="{{details.casts}}" wx:for-index="idx">
+      <text title="{{item.avatars.small}}">{{item.name}}<text wx:if="{{idx < details.casts.length - 1}}">,</text></text>
+    </view>
+  </view>
+  <view class="type">类型:
+    <view wx:for="{{details.genres}}" wx:for-index="idx">
+      <text>{{item}}<text wx:if="{{idx < details.genres.length - 1}}">,</text></text>
+    </view>
+  </view>
+  <view class="year">时间:
+    <view>{{details.year}}</view>
+  </view>
+  <view class="summary">
+    <text>{{details.summary}}</text>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<view class="nav-container">
+    <image class="avator" src="/images/avator.jpg">
+    </image>
+    <view class="nickname">
+        <text>jonins
+        </text>
+    </view>
+    <view class="into" bindtap='intoPage'>
+      <text catchtap='intoPage'>开始进入</text>
+    </view>
+</view>

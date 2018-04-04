@@ -1,0 +1,15 @@
+<block>
+  <view class="movie_wrap">
+
+    <view class="movie_list" wx:for="{{movies.subjects}}">
+      <image src="{{item.images.small}}"></image>
+      <view class="movie_name">
+        <text>{{item.title}}</text>
+      </view>
+      <view class="movie_star">
+        <text>☆☆☆☆☆</text>
+      </view>
+      <text class="movie_choose" data-movie-id ="{{item.id}}" catchtap='chooseMovie'>选座购票</text>
+    </view>
+  </view>
+</block>
